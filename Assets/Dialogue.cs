@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
+using UnityEngine.XR;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
@@ -12,22 +13,31 @@ public class Dialogue : MonoBehaviour
         textComponent.text = string.Empty;
         StartDialogue();
     }
-    // Update is called once per frame
+    public float timeRemaining = 10f;
+    private bool timerIsRunning = true;
     void Update()
     {
-        if(OVRInput.Get(OVRInput.Button.One)) /// Input Problem
-        {
-            Debug.Log("this works");
-            if (textComponent.text == lines[index])
+            if (timerIsRunning)
             {
-                NextLine();
+                timeRemaining -= Time.deltaTime;
+                Debug.Log(timeRemaining);
+                if (timeRemaining < 0)
+                {
+                    if (textComponent.text == lines[index])
+                    {
+                                        Debug.Log("nezxt line");
+
+                        NextLine();
+                        timeRemaining = 10f;
+                    }
+                    else
+                    {
+                        StopAllCoroutines();
+                        textComponent.text = lines[index];
+                    }
+                }
+                
             }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
-            }
-        }
     }
 
     void StartDialogue()

@@ -508,13 +508,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   textComponent: {fileID: 1749154704}
   lines:
-  - 'Yuri: Hello, this is Captain Yuri of the Stars Beyond Nebula responding.'
-  - "McCarthy, reporting from Astra Station, so uuhhhh\u2026 Captain Yuri, it appears
-    that the coordinates set on your navigation have underestimated the amount of
-    fuel required to return back to station."
-  - Wait, what? I did all the preparations and procedures
+  - Beeep....
+  - "McCarthy, reporting from Astra Station, so uuhhhh\u2026 Captain Yuri..."
+  - Destiny Station has intentionally replaced the fuel on your ship with crude oil.
+  - Immediately land on the nearest planet as soon as possible.
+  - Report back and await further orders once you land.
   - 
   textSpeed: 0.1
+  timeRemaining: 5
 --- !u!114 &926571299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,8 +638,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -676,7 +677,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 12.708244, z: 0, w: 16.508022}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
