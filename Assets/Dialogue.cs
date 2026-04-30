@@ -13,7 +13,7 @@ public class Dialogue : MonoBehaviour
         textComponent.text = string.Empty;
         StartDialogue();
     }
-    public float timeRemaining = 10f;
+    public float timeRemaining = 7f;
     private bool timerIsRunning = true;
     void Update()
     {
@@ -28,7 +28,7 @@ public class Dialogue : MonoBehaviour
                                         Debug.Log("nezxt line");
 
                         NextLine();
-                        timeRemaining = 10f;
+                        timeRemaining = 7f;
                     }
                     else
                     {
