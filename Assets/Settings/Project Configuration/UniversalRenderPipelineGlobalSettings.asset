@@ -65,8 +65,13 @@ MonoBehaviour:
       - rid: 685925052547858440
       - rid: 685925052547858441
       - rid: 685925052547858442
+<<<<<<< Updated upstream
       - rid: 5486890898557239296
       - rid: 5486890898557239297
+=======
+      - rid: 5486891198517608448
+      - rid: 5486891198517608449
+>>>>>>> Stashed changes
     m_RuntimeSettings:
       m_List: []
   m_AssetVersion: 10
@@ -419,14 +424,22 @@ MonoBehaviour:
         m_version: 0
         m_EnableCompilationCaching: 1
         m_EnableValidityChecks: 1
+<<<<<<< Updated upstream
     - rid: 5486890898557239296
+=======
+    - rid: 5486891198517608448
+>>>>>>> Stashed changes
       type: {class: UniversalRenderPipelineRuntimeTerrainShaders, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
         m_TerrainDetailLit: {fileID: 4800000, guid: f6783ab646d374f94b199774402a5144, type: 3}
         m_TerrainDetailGrassBillboard: {fileID: 4800000, guid: 29868e73b638e48ca99a19ea58c48d90, type: 3}
         m_TerrainDetailGrass: {fileID: 4800000, guid: e507fdfead5ca47e8b9a768b51c291a1, type: 3}
+<<<<<<< Updated upstream
     - rid: 5486890898557239297
+=======
+    - rid: 5486891198517608449
+>>>>>>> Stashed changes
       type: {class: URPTerrainShaderSetting, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
