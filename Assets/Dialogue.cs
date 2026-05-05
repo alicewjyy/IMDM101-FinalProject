@@ -25,7 +25,7 @@ public class Dialogue : MonoBehaviour
                 {
                     if (textComponent.text == lines[index])
                     {
-                                        Debug.Log("nezxt line");
+                                        Debug.Log("next line");
 
                         NextLine();
                         timeRemaining = 7f;
@@ -68,4 +68,5 @@ public class Dialogue : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
 }

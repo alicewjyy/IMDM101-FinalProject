@@ -514,7 +514,6 @@ MonoBehaviour:
   - Immediately land on the nearest planet as soon as possible.
   - Report back and await further orders once you land.
   - Beeep....
-  - 
   textSpeed: 0.08
   timeRemaining: 5
 --- !u!114 &926571299
