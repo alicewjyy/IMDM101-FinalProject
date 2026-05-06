@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OtherScene.unity
     guid: 942b7d9ba649d7a47b61ee6a9d4c7d59
+  - enabled: 1
+    path: Assets/Scenes/SpaceShip.unity
+    guid: 013446791144c46ebbaae0e14a8a0c95
+  - enabled: 1
+    path: Assets/Scenes/Text.unity
+    guid: 7a3d87d5602d5463eae964bea4d88779
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

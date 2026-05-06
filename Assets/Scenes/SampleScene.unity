@@ -4739,7 +4739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc7e9d50d41ba314180bdd79d0aa5f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonSceneSwitch
-  sceneName: OtherScene
+  sceneName: SpaceShip
   myButton: {fileID: 475828425}
 --- !u!1 &486505834
 GameObject:
