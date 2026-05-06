@@ -102,3 +102,5 @@ Assets/UniversalRenderPipelineGlobalSettings.asset
 Assets/UniversalRenderPipelineGlobalSettings.asset.meta
 Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset
 Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset.meta
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
