@@ -98,3 +98,7 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+Assets/UniversalRenderPipelineGlobalSettings.asset
+Assets/UniversalRenderPipelineGlobalSettings.asset.meta
+Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset
+Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset.meta
