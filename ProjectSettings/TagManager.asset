@@ -7,6 +7,7 @@ TagManager:
   - Anchor
   - Collector
   - Collectible
+  - LevelExit
   layers:
   - Default
   - TransparentFX
